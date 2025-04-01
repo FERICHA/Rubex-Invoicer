@@ -8,12 +8,12 @@
 
 | Fonctionnalité               | Description                                                                 |
 |------------------------------|-----------------------------------------------------------------------------|
-| 📝 **Création de factures**   | Interface intuitive avec enregistrement des clients et produits             |
-| 💶 **Gestion des paiements**  | Statuts : Payé/Non payé/Partiel avec dates d'échéance                      |
-| 🗂 **Organisation**           | Classement par catégories/projets avec système de tags                      |
-| 👁‍🗨 **Contrôle d'accès**     | Rôles Admin (accès complet) et Membres (restrictions)                       |
-| 📊 **Tableau de bord**        | Statistiques financières et indicateurs clés                               |
-| 🔄 **Workflow automatisé**    | Rappels de paiement et relances automatiques                               |
+| 📝 **Gestion complète de factures** | <ul><li>Création de factures détaillées</li><li>Modification des factures existantes</li><li>Suppression sécurisée des factures</li><li>Recherche et filtrage avancé</li></ul> |
+| 💶 **Suivi des paiements** | <ul><li>Marquage des statuts : <code>Payé</code>/<code>Non payé</code>/<code>Partiellement payé</code></li><li>Gestion des échéances et dates de paiement</li><li>Historique complet des transactions</li></ul> |
+| 🗂 **Organisation intelligente** | <ul><li>Classement par catégories personnalisables</li><li>Système de tags pour un filtrage rapide</li><li>Sections dédiées par type de produit/service</li></ul> |
+| 👨‍💼 **Contrôle d'accès granulaire** | <ul><li><strong>Administrateurs</strong> : Accès complet à toutes les fonctionnalités</li><li><strong>Membres normaux</strong> : Restrictions sur les données sensibles</li><li>Gestion fine des permissions</li></ul> |
+| 📈 **Tableau de bord analytique** | <ul><li>Statistiques financières en temps réel</li><li>Graphiques des revenus/dépenses</li><li>Indicateurs de performance clés</li></ul> |
+| 🤖 **Automatisation intelligente** | <ul><li>Envoi automatique de rappels de paiement</li><li>Relances programmées</li><li>Génération de rapports périodiques</li></ul> |
 
 ## 🚀 Démarrage Rapide
 
@@ -26,3 +26,23 @@
 ```bash
 git clone https://github.com/FERICHA/Rubex-Invoicer.git
 cd Rubex-Invoicer 
+```
+
+### 2. Configuration initiale
+```bash
+cp .env.example .env
+```
+### 3. Éditez le .env avec vos paramètres :
+```bash
+APP_NAME="Rubex Invoicer"
+APP_URL=http://localhost
+
+DB_HOST=db
+DB_DATABASE=invoices
+DB_USERNAME=root
+DB_PASSWORD=securepassword
+```
+
+
+
+
