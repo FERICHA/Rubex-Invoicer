@@ -37,6 +37,10 @@ cp .env.example .env
 
 #### Créer le fichier .htaccess
 ```bash
+New-Item .htaccess -ItemType File
+```
+#### .htaccess
+```bash
 <IfModule mod_rewrite.c>
     RewriteEngine On 
     RewriteBase /
