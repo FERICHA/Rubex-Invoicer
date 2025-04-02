@@ -49,7 +49,7 @@ New-Item .htaccess -ItemType File
 </IfModule>
 ```
 
-#### Créer le fichier docker-compose.yml le Dossier docker :
+#### Créer le fichier docker-compose.yml et le Dossier docker :
 
 ```powershell
 mkdir -Force docker | Out-Null
