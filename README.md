@@ -35,6 +35,15 @@ cd Rubex-Invoicer
 cp .env.example .env
 ```
 
+#### Créer le fichier .htaccess
+```bash
+<IfModule mod_rewrite.c>
+    RewriteEngine On 
+    RewriteBase /
+    RewriteRule ^$ public/index.php [L]
+    RewriteRule ^((?!public/).*)$ public/$1 [L,NC]
+</IfModule>
+```
 
 #### Créer le fichier docker-compose.yml le Dossier docker :
 
