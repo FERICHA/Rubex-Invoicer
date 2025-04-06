@@ -2,7 +2,10 @@
 
 <img src="https://github.com/user-attachments/assets/54d6ffe1-4959-4837-a0af-279a79c9a1e0" alt="Bannière Rubex Invoicer" width="300"/>
 
-**Solution complète de gestion de factures pour TPE/PME et travailleurs indépendants**
+## Présentation du Projet 
+Rubex Invoicer est une Solution complète de gestion de factures pour TPE/PME et travailleurs indépendants. Elle simplifie la création et le suivi des factures, la gestion des paiements, des utilisateurs ainsi que l’accès à des analyses financières claires. Facile à déployer grâce à Docker, c’est l’outil idéal pour garder le contrôle sur votre activité en toute simplicité.
+
+
 
 ## ✨ Fonctionnalités Principales
 
@@ -14,6 +17,36 @@
 | 👨‍💼 **Contrôle d'accès granulaire** | <ul><li><strong>Administrateurs</strong> : Accès complet à toutes les fonctionnalités</li><li><strong>Membres normaux</strong> : Restrictions sur les données sensibles</li><li>Gestion fine des permissions</li></ul> |
 | 📈 **Tableau de bord analytique** | <ul><li>Statistiques financières en temps réel</li><li>Graphiques des revenus/dépenses</li><li>Indicateurs de performance clés</li></ul> |
 | 🤖 **Automatisation intelligente** | <ul><li>Notifications en temps réel pour les actions clés</li></ul> |
+
+## Technologies utilisées 
+**Backend**
+
+- PHP : Langage principal utilisé par Laravel.
+
+- Laravel : Framework MVC (Modèle-Vue-Contrôleur).
+
+- Blade : Moteur de templates de Laravel (pour les vues HTML).
+
+- Eloquent ORM : Pour les interactions avec la base de données.
+
+- Artisan : Interface CLI de Laravel (pour les migrations, tests, etc.).
+
+- MySQLL : Base de données.
+
+- Composer : Gestionnaire de dépendances PHP.
+
+**Frontend**
+- HTML/CSS : Pour la structure et le style des pages.
+
+- Blade : Utilisé pour intégrer du PHP dans les vues HTML.
+
+- JavaScript / jQuery : beaucoup de logique côté client.
+
+
+
+
+
+
 
 ## 🚀 Démarrage Rapide - Déploiement avec Docker
 ### Prérequis
