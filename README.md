@@ -336,6 +336,8 @@ docker-compose exec app php artisan migrate
 ### 13. Image disponible 
 https://hub.docker.com/r/ferichahoussam/invoices
 
+## ✨ Auteurs
+@FERICHA
 
 
 
